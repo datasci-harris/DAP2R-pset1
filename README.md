@@ -1,8 +1,8 @@
 # Data Skills 2 - R
-## Autumn Quarter 2022
+## Winter Quarter 2024
 
 ## Homework 1
-## Due: Monday October 10th before midnight on Gradescope
+## Due: January 18, 2024 before midnight on Gradescope
 
 __Question 1 (40%):__ The two datasets included in the assignment repo are downloaded directly from the BEA.  The file labeled "total" has the total employment per state for the years 2000 and 2017.  The file labeled "by industry" has employment per industry in each of 10 industries per state for the same years.
 
