@@ -12,6 +12,13 @@ The values should be given as the share of the total employment in that place an
 
 Output this dataframe to a csv document named "data.csv" and sync it to your homework repo with your code.
 
-__Question 2 (30%):__ Write a function that finds the top states with the highest values of a variable in a given year. That is, this function should take as input 3 parameters: the number of states, the industry, and the year. Use this function to find the states with the top 5 of manufacturing employment in the year 2000, then show how their share of employment in manufacturing changed between 2000 and 2017.  Use a basic plot to display the information. Repeat this via a for loop for the top 10 of farm employment in 2000 and top 15 of information in 2017.
+__Question 2 (30%):__ Question 2: _(Note: this was edited on 1/6/2024 to clarify the question. The objective of the question has not changed from the original version.)_
+
+Write a function that finds the top states with the highest state-specific industry shares for an industry in a given year. This function should take as input 3 parameters: the number of states reported in the output, the industry, and the year. It should return a vector or list of states.
+* 2a. Use this function to find the 5 states with the largest within-state manufacturing shares (i.e., manufacturing employment / total employment in that state) in 2000.
+* 2b. For each of the 5 states that you just identified, find the state's manufacturing share in each year from 2000 and 2017.
+* 2c. Plot how each of those states' manufacturing employment share changed from 2000 and 2017. 
+* 2d. Place the code for steps 2a-2c within a single run of a for-loop. Then, modify the for-loop so that it also repeats steps 2a-2c for the 10 states with the largest within-state farming share in 2000, and for the 15 states with the largest within-state information share in 2017.
+
 
 __Question 3 (30%)__ Write a function that plots where a given state is in the distribution of employment shares for a given industry in 2000 and 2017, as well as the distribution of the change in employment shares from 2000 to 2017. This function should take as input 2 parameters: the state and the industry. For each year as well as for the difference, it should plot a histogram of employment shares for that industry, and then include a vertical line for the mean of the overall distribution and a vertical line for the value for the given state. It should be clearly denoted which is the mean and which is that state's value. Note that since the shares here are already in percent terms, the change is just calculated as the difference in shares.
